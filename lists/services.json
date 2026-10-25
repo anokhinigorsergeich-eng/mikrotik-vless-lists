@@ -1,0 +1,229 @@
+{
+ "schema": 1,
+ "updated": "2026-10-25",
+ "services": {
+  "youtube": {
+   "title": "YouTube",
+   "default": true,
+   "domains": [
+    "ggpht.com",
+    "googlevideo.com",
+    "gvt1.com",
+    "gvt2.com",
+    "youtu.be",
+    "youtube-nocookie.com",
+    "youtube-ui.l.google.com",
+    "youtube.com",
+    "youtube.googleapis.com",
+    "youtubei.googleapis.com",
+    "youtubekids.com",
+    "yt.be",
+    "yt3.ggpht.com",
+    "ytimg.com"
+   ],
+   "cidrs": []
+  },
+  "telegram": {
+   "title": "Telegram",
+   "default": true,
+   "domains": [
+    "cdn-telegram.org",
+    "core.telegram.org",
+    "graph.org",
+    "t.me",
+    "td.telegram.org",
+    "tdesktop.com",
+    "telegra.ph",
+    "telegram-cdn.org",
+    "telegram.me",
+    "telegram.org",
+    "telesco.pe",
+    "tg.dev"
+   ],
+   "cidrs": [
+    "91.105.192.0/23",
+    "91.108.4.0/22",
+    "91.108.8.0/22",
+    "91.108.12.0/22",
+    "91.108.16.0/22",
+    "91.108.20.0/22",
+    "91.108.56.0/22",
+    "95.161.64.0/20",
+    "149.154.160.0/20",
+    "185.76.151.0/24"
+   ]
+  },
+  "whatsapp": {
+   "title": "WhatsApp",
+   "default": true,
+   "domains": [
+    "wa.me",
+    "whatsapp-plus.net",
+    "whatsapp.biz",
+    "whatsapp.cc",
+    "whatsapp.com",
+    "whatsapp.net"
+   ],
+   "cidrs": [
+    "57.144.0.0/14"
+   ]
+  },
+  "meta": {
+   "title": "Instagram, Facebook, Threads",
+   "default": true,
+   "domains": [
+    "cdninstagram.com",
+    "facebook.com",
+    "facebook.net",
+    "fb.com",
+    "fb.me",
+    "fbcdn.net",
+    "fbsbx.com",
+    "ig.me",
+    "instagr.am",
+    "instagram.com",
+    "messenger.com",
+    "meta.com",
+    "threads.com",
+    "threads.net"
+   ],
+   "cidrs": []
+  },
+  "chatgpt": {
+   "title": "ChatGPT / OpenAI",
+   "default": true,
+   "domains": [
+    "chat.com",
+    "chatgpt.com",
+    "oaistatic.com",
+    "oaiusercontent.com",
+    "openai.com",
+    "openaiapi-site.azureedge.net",
+    "sora.com"
+   ],
+   "cidrs": []
+  },
+  "claude": {
+   "title": "Claude / Anthropic",
+   "default": true,
+   "domains": [
+    "anthropic.com",
+    "claude.ai",
+    "claude.com"
+   ],
+   "cidrs": []
+  },
+  "gemini": {
+   "title": "Google Gemini",
+   "default": true,
+   "domains": [
+    "ai.google.dev",
+    "aistudio.google.com",
+    "deepmind.com",
+    "deepmind.google",
+    "gemini.google.com",
+    "generativelanguage.googleapis.com",
+    "labs.google",
+    "makersuite.google.com",
+    "notebooklm.google.com"
+   ],
+   "cidrs": []
+  },
+  "discord": {
+   "title": "Discord",
+   "default": true,
+   "domains": [
+    "discord.com",
+    "discord.dev",
+    "discord.gg",
+    "discord.media",
+    "discordapp.com",
+    "discordapp.net",
+    "discordcdn.com",
+    "discordstatus.com"
+   ],
+   "cidrs": []
+  },
+  "twitter": {
+   "title": "X (Twitter)",
+   "default": true,
+   "domains": [
+    "t.co",
+    "twimg.com",
+    "twitter.com",
+    "twttr.com",
+    "x.ai",
+    "x.com"
+   ],
+   "cidrs": []
+  },
+  "linkedin": {
+   "title": "LinkedIn",
+   "default": false,
+   "domains": [
+    "licdn.com",
+    "linkedin.com"
+   ],
+   "cidrs": []
+  },
+  "spotify": {
+   "title": "Spotify",
+   "default": false,
+   "domains": [
+    "scdn.co",
+    "spoti.fi",
+    "spotify.com",
+    "spotifycdn.com"
+   ],
+   "cidrs": []
+  },
+  "netflix": {
+   "title": "Netflix",
+   "default": false,
+   "domains": [
+    "netflix.com",
+    "nflxext.com",
+    "nflximg.net",
+    "nflxso.net",
+    "nflxvideo.net"
+   ],
+   "cidrs": []
+  },
+  "twitch": {
+   "title": "Twitch",
+   "default": false,
+   "domains": [
+    "jtvnw.net",
+    "ttvnw.net",
+    "twitch.tv",
+    "twitchcdn.net"
+   ],
+   "cidrs": []
+  },
+  "tiktok": {
+   "title": "TikTok",
+   "default": false,
+   "domains": [
+    "byteoversea.com",
+    "ibytedtos.com",
+    "tiktok.com",
+    "tiktokcdn.com",
+    "tiktokv.com"
+   ],
+   "cidrs": []
+  },
+  "speedtest": {
+   "title": "Проверка IP и скорости (ipify, ifconfig, speedtest)",
+   "default": false,
+   "domains": [
+    "api.ipify.org",
+    "ifconfig.co",
+    "ifconfig.me",
+    "ipinfo.io",
+    "ookla.com",
+    "speedtest.net"
+   ],
+   "cidrs": []
+  }
+ }
+}
