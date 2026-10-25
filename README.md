@@ -7,3 +7,4 @@
 * Формат: `{"schema": 1, "updated": "ГГГГ-ММ-ДД", "services": {"имя": {"title", "default", "domains": [], "cidrs": []}}}`.
   Домены — строчные латинские буквы, цифры, точки и дефисы; сети — `a.b.c.d/N`, N от 8 до 32, не частные.
 * Адрес для роутеров: `https://raw.githubusercontent.com/anokhinigorsergeich-eng/mikrotik-vless-lists/main/lists/services.json`
+* Лицензия: MIT (см. `LICENSE`).
